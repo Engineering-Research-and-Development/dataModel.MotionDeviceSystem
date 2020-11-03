@@ -856,20 +856,6 @@
 											}
 										},
 										{
-											"type": "Integer",
-											"value": 0,
-											"metadata": {
-												"BrowseName": {
-													"type": "String",
-													"value": "NAMESPACEINDEX:MotorCategory"
-												},
-												"NodeId": {
-													"type": "String",
-													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
-												}
-											}
-										},
-										{
 											"type": "StructuredValue",
 											"value": [{
 													"type": "Boolean",
