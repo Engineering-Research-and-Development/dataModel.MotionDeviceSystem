@@ -1,0 +1,1190 @@
+{
+	"id": "urn:ngsi-ld:OPCUARoboticsCompanion:MotionDeviceSystem:MyMotionDeviceSystem",
+	"type": "OPCUARoboticsCompanion:MotionDeviceSystem",
+	"@context": [
+		"https://schema.lab.fiware.org/ld/context",
+		"https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+	],
+	"Controllers": {
+		"type": "StructuredValue",
+		"value": [{
+			"type": "StructuredValue",
+			"value": [{
+					"type": "LocalizedText",
+					"value": "Engineering Ingegneria Informatica",
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:Manufacturer"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "LocalizedText",
+					"value": "Model",
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:Model"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "String",
+					"value": "MP695ENG004",
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:ProductCode"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "String",
+					"value": "ENG-004",
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:SerialNumber"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "StructuredValue",
+					"value": [{
+							"type": "Double",
+							"value": 1600.0,
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:CPUFanSpeed"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						},
+						{
+							"type": "Double",
+							"value": 2000.5,
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:CabinetFanSpeed"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						},
+						{
+							"type": "Double",
+							"value": 2500.0,
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:InputVoltage"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						},
+						{
+							"type": "DateTime",
+							"value": "2020-10-19T07:36:06.713Z",
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:StartUpTime"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						},
+						{
+							"type": "Double",
+							"value": 50.0,
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:Temperature"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						},
+						{
+							"type": "Double",
+							"value": 170.1,
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:TotalEnergyConsumption"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						},
+						{
+							"type": "DurationString",
+							"value": "",
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:TotalPowerOnTime"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						},
+						{
+							"type": "String",
+							"value": "alive",
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:UPSState"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						}
+					],
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:ParameterSet"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "StructuredValue",
+					"value": [{
+						"type": "StructuredValue",
+						"value": {
+
+						},
+						"metadata": {
+							"BrowseName": {
+								"type": "String",
+								"value": "NAMESPACEINDEX:Component"
+							},
+							"NodeId": {
+								"type": "String",
+								"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+							}
+						}
+					}],
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:Components"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "StructuredValue",
+					"value": [
+
+					],
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:Software"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "StructuredValue",
+					"value": [{
+						"type": "StructuredValue",
+						"value": [{
+							"type": "StructuredValue",
+							"value": [{
+									"type": "String",
+									"value": "TaskProg",
+									"metadata": {
+										"BrowseName": {
+											"type": "String",
+											"value": "NAMESPACEINDEX:TaskProgramName"
+										},
+										"NodeId": {
+											"type": "String",
+											"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+										}
+									}
+								},
+								{
+									"type": "Boolean",
+									"value": true,
+									"metadata": {
+										"BrowseName": {
+											"type": "String",
+											"value": "NAMESPACEINDEX:TaskProgramLoaded"
+										},
+										"NodeId": {
+											"type": "String",
+											"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+										}
+									}
+								},
+								{
+									"type": "Integer",
+									"value": 0,
+									"metadata": {
+										"BrowseName": {
+											"type": "String",
+											"value": "NAMESPACEINDEX:ExecutionMode"
+										},
+										"NodeId": {
+											"type": "String",
+											"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+										}
+									}
+								}
+							],
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:ParameterSet"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						}],
+						"metadata": {
+							"BrowseName": {
+								"type": "String",
+								"value": "NAMESPACEINDEX:TaskControl"
+							},
+							"NodeId": {
+								"type": "String",
+								"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+							}
+						}
+					}],
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:TaskControls"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				}
+			],
+			"metadata": {
+				"BrowseName": {
+					"type": "String",
+					"value": "NAMESPACEINDEX:Controller"
+				},
+				"NodeId": {
+					"type": "String",
+					"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+				}
+			}
+		}],
+		"metadata": {
+			"BrowseName": {
+				"type": "String",
+				"value": "NAMESPACEINDEX:Controllers"
+			},
+			"NodeId": {
+				"type": "String",
+				"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+			}
+		}
+	},
+	"MotionDevices": {
+		"type": "StructuredValue",
+		"value": [{
+			"type": "StructuredValue",
+			"value": [{
+					"type": "LocalizedText",
+					"value": "Engineering Ingegneria Informatica",
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:Manufacturer"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "LocalizedText",
+					"value": "Model",
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:Model"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "String",
+					"value": "MP695ENG004",
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:ProductCode"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "String",
+					"value": "ENG-004",
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:SerialNumber"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "Integer",
+					"value": 0,
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:MotionDeviceCategory"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "StructuredValue",
+					"value": [{
+						"type": "StructuredValue",
+						"value": {},
+						"metadata": {
+							"BrowseName": {
+								"type": "String",
+								"value": "NAMESPACEINDEX:AdditionalComponent"
+							},
+							"NodeId": {
+								"type": "String",
+								"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+							}
+						}
+					}],
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:AdditionalComponents"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "StructuredValue",
+					"value": [{
+							"type": "StructuredValue",
+							"value": [{
+									"type": "Integer",
+									"value": 0,
+									"metadata": {
+										"BrowseName": {
+											"type": "String",
+											"value": "NAMESPACEINDEX:MotionProfile"
+										},
+										"NodeId": {
+											"type": "String",
+											"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+										}
+									}
+								},
+								{
+									"type": "StructuredValue",
+									"value": [{
+											"type": "Double",
+											"value": 15.0,
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:ActualPosition"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "Double",
+											"value": 1.0,
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:ActualSpeed"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "Double",
+											"value": 0.5,
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:ActualAcceleration"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										}
+									],
+									"metadata": {
+										"BrowseName": {
+											"type": "String",
+											"value": "NAMESPACEINDEX:ParameterSet"
+										},
+										"NodeId": {
+											"type": "String",
+											"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+										}
+									}
+								}
+							],
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:AxisX"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						},
+						{
+							"type": "StructuredValue",
+							"value": [{
+									"type": "Integer",
+									"value": 0,
+									"metadata": {
+										"BrowseName": {
+											"type": "String",
+											"value": "NAMESPACEINDEX:MotionProfile"
+										},
+										"NodeId": {
+											"type": "String",
+											"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+										}
+									}
+								},
+								{
+									"type": "StructuredValue",
+									"value": [{
+											"type": "Double",
+											"value": 15.0,
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:ActualPosition"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "Double",
+											"value": 1.0,
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:ActualSpeed"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "Double",
+											"value": 0.5,
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:ActualAcceleration"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										}
+									],
+									"metadata": {
+										"BrowseName": {
+											"type": "String",
+											"value": "NAMESPACEINDEX:ParameterSet"
+										},
+										"NodeId": {
+											"type": "String",
+											"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+										}
+									}
+								}
+							],
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:AxisY"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						}
+					],
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:Axes"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "StructuredValue",
+					"value": [{
+							"type": "Boolean",
+							"value": true,
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:OnPath"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						},
+						{
+							"type": "Boolean",
+							"value": true,
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:InControl"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						},
+						{
+							"type": "Double",
+							"value": 0.5,
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:SpeedOverride"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						}
+					],
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:ParameterSet"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "StructuredValue",
+					"value": [{
+						"type": "StructuredValue",
+						"value": [{
+								"type": "StructuredValue",
+								"value": [{
+									"type": "StructuredValue",
+									"value": [{
+											"type": "LocalizedText",
+											"value": "Engineering Ingegneria Informatica",
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:Manufacturer"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "LocalizedText",
+											"value": "Model",
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:Model"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "String",
+											"value": "MP695ENG003",
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:ProductCode"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "String",
+											"value": "ENG-003",
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:SerialNumber"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "Double",
+											"value": "0.25",
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:GearRatio"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "Double",
+											"value": "1.5",
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:Pitch"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										}
+									],
+									"metadata": {
+										"BrowseName": {
+											"type": "String",
+											"value": "NAMESPACEINDEX:Gear"
+										},
+										"NodeId": {
+											"type": "String",
+											"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+										}
+									}
+								}],
+								"metadata": {
+									"BrowseName": {
+										"type": "String",
+										"value": "NAMESPACEINDEX:Gears"
+									},
+									"NodeId": {
+										"type": "String",
+										"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+									}
+								}
+							},
+							{
+								"type": "StructuredValue",
+								"value": [{
+									"type": "StructuredValue",
+									"value": [{
+											"type": "LocalizedText",
+											"value": "Engineering Ingegneria Informatica",
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:Manufacturer"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "LocalizedText",
+											"value": "Model",
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:Model"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "String",
+											"value": "MP695ENG002",
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:ProductCode"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "String",
+											"value": "ENG-002",
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:SerialNumber"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										},
+										{
+											"type": "StructuredValue",
+											"value": [{
+													"type": "Boolean",
+													"value": true,
+													"metadata": {
+														"BrowseName": {
+															"type": "String",
+															"value": "NAMESPACEINDEX:BrakeReleased"
+														},
+														"NodeId": {
+															"type": "String",
+															"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+														}
+													}
+												},
+												{
+													"type": "Double",
+													"value": 75.0,
+													"metadata": {
+														"BrowseName": {
+															"type": "String",
+															"value": "NAMESPACEINDEX:motorTemperature"
+														},
+														"NodeId": {
+															"type": "String",
+															"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+														}
+													}
+												},
+												{
+													"type": "Integer",
+													"value": 0,
+													"metadata": {
+														"BrowseName": {
+															"type": "String",
+															"value": "NAMESPACEINDEX:EffectiveLoadRate"
+														},
+														"NodeId": {
+															"type": "String",
+															"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+														}
+													}
+												}
+											],
+											"metadata": {
+												"BrowseName": {
+													"type": "String",
+													"value": "NAMESPACEINDEX:ParameterSet"
+												},
+												"NodeId": {
+													"type": "String",
+													"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+												}
+											}
+										}
+									],
+									"metadata": {
+										"BrowseName": {
+											"type": "String",
+											"value": "NAMESPACEINDEX:Motor"
+										},
+										"NodeId": {
+											"type": "String",
+											"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+										}
+									}
+								}],
+								"metadata": {
+									"BrowseName": {
+										"type": "String",
+										"value": "NAMESPACEINDEX:Motors"
+									},
+									"NodeId": {
+										"type": "String",
+										"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+									}
+								}
+							}
+						],
+						"metadata": {
+							"BrowseName": {
+								"type": "String",
+								"value": "NAMESPACEINDEX:PowerTrain"
+							},
+							"NodeId": {
+								"type": "String",
+								"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+							}
+						}
+					}],
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:PowerTrains"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				}
+			],
+			"metadata": {
+				"BrowseName": {
+					"type": "String",
+					"value": "NAMESPACEINDEX:MotionDevice"
+				},
+				"NodeId": {
+					"type": "String",
+					"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+				}
+			}
+		}],
+		"metadata": {
+			"BrowseName": {
+				"type": "String",
+				"value": "NAMESPACEINDEX:MotionDevices"
+			},
+			"NodeId": {
+				"type": "String",
+				"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+			}
+		}
+	},
+	"SafetyStates": {
+		"type": "StructuredValue",
+		"value": [{
+			"type": "StructuredValue",
+			"value": [{
+					"type": "StructuredValue",
+					"value": [{
+							"type": "Integer",
+							"value": 0,
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:OperationalMode"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						},
+						{
+							"type": "Boolean",
+							"value": true,
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:ProtectiveStop"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						},
+						{
+							"type": "Boolean",
+							"value": true,
+							"metadata": {
+								"BrowseName": {
+									"type": "String",
+									"value": "NAMESPACEINDEX:EmergencyStop"
+								},
+								"NodeId": {
+									"type": "String",
+									"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+								}
+							}
+						}
+					],
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:ParameterSet"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "StructuredValue",
+					"value": [{
+						"type": "StructuredValue",
+						"value": [{
+								"type": "String",
+								"value": "EmergencyStopFunc",
+								"metadata": {
+									"BrowseName": {
+										"type": "String",
+										"value": "NAMESPACEINDEX:name"
+									},
+									"NodeId": {
+										"type": "String",
+										"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+									}
+								}
+							},
+							{
+								"type": "Boolean",
+								"value": true,
+								"metadata": {
+									"BrowseName": {
+										"type": "String",
+										"value": "NAMESPACEINDEX:Active"
+									},
+									"NodeId": {
+										"type": "String",
+										"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+									}
+								}
+							}
+						],
+						"metadata": {
+							"BrowseName": {
+								"type": "String",
+								"value": "NAMESPACEINDEX:EmergencyStopFunction"
+							},
+							"NodeId": {
+								"type": "String",
+								"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+							}
+						}
+					}],
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:EmergencyStopFunctions"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				},
+				{
+					"type": "StructuredValue",
+					"value": [{
+						"type": "StructuredValue",
+						"value": [{
+								"type": "String",
+								"value": "ProtectiveStopFunc",
+								"metadata": {
+									"BrowseName": {
+										"type": "String",
+										"value": "NAMESPACEINDEX:name"
+									},
+									"NodeId": {
+										"type": "String",
+										"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+									}
+								}
+							},
+							{
+								"type": "Boolean",
+								"value": true,
+								"metadata": {
+									"BrowseName": {
+										"type": "String",
+										"value": "NAMESPACEINDEX:Active"
+									},
+									"NodeId": {
+										"type": "String",
+										"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+									}
+								}
+							},
+							{
+								"type": "Boolean",
+								"value": true,
+								"metadata": {
+									"BrowseName": {
+										"type": "String",
+										"value": "NAMESPACEINDEX:Enabled"
+									},
+									"NodeId": {
+										"type": "String",
+										"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+									}
+								}
+							}
+						],
+						"metadata": {
+							"BrowseName": {
+								"type": "String",
+								"value": "NAMESPACEINDEX:ProtectiveStopFunction"
+							},
+							"NodeId": {
+								"type": "String",
+								"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+							}
+						}
+					}],
+					"metadata": {
+						"BrowseName": {
+							"type": "String",
+							"value": "NAMESPACEINDEX:ProtectiveStopFunctions"
+						},
+						"NodeId": {
+							"type": "String",
+							"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+						}
+					}
+				}
+			],
+			"metadata": {
+				"BrowseName": {
+					"type": "String",
+					"value": "NAMESPACEINDEX:SafetyState"
+				},
+				"NodeId": {
+					"type": "String",
+					"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+				}
+			}
+		}],
+		"metadata": {
+			"BrowseName": {
+				"type": "String",
+				"value": "NAMESPACEINDEX:SafetyStates"
+			},
+			"NodeId": {
+				"type": "String",
+				"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+			}
+		}
+	}
+}
