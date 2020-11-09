@@ -1182,5 +1182,14 @@
 				"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
 			}
 		}
-	}
+	},
+	"metadata": {
+		"BrowseName": {
+			"type": "String",
+			"value": "NAMESPACEINDEX:MotionDeviceSystem"
+		},
+		"NodeId": {
+			"type": "String",
+			"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+		}
 }

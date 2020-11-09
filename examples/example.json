@@ -1,6 +1,8 @@
 {
 	"id": "MyMotionDeviceSystem",
 	"type": "MotionDeviceSystem",
+	"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+	"BrowseName":  "NAMESPACEINDEX:MotionDeviceSystem",
 	"Controllers": {
 		"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
 		"BrowseName":  "NAMESPACEINDEX:Controllers",
