@@ -1547,7 +1547,17 @@ Normalized NGSI response
 				"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
 			}
 		}
-	}
+	},
+  "metadata": {
+		"BrowseName": {
+			"type": "String",
+			"value": "NAMESPACEINDEX:MotionDeviceSystem"
+		},
+		"NodeId": {
+			"type": "String",
+			"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+		}
+  }
 }
 ```
 
@@ -1559,14 +1569,27 @@ Sample uses simplified representation for data consumers `?options=keyValues`
 {
 	"id": "MyMotionDeviceSystem",
 	"type": "MotionDeviceSystem",
+	"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+	"BrowseName":  "NAMESPACEINDEX:MotionDeviceSystem",
 	"Controllers": {
+		"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+		"BrowseName":  "NAMESPACEINDEX:Controllers",
 		"Controller": {
+			"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+			"BrowseName":  "NAMESPACEINDEX:Controller",
 			"Components": {
-				"Component": {}
+				"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+				"BrowseName":  "NAMESPACEINDEX:Components",
+				"Component": {
+					"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+					"BrowseName":  "NAMESPACEINDEX:Component"
+				}
 			},
 			"Manufacturer": "Engineering Ingegneria Informatica",
 			"Model": "Model",
 			"ParameterSet": {
+				"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+				"BrowseName":  "NAMESPACEINDEX:ParameterSet",
 				"CPUFanSpeed": 1600.0,
 				"CabinetFanSpeed": 2000.5,
 				"InputVoltage": 2500.0,
@@ -1579,11 +1602,22 @@ Sample uses simplified representation for data consumers `?options=keyValues`
 			"ProductCode": "MP695ENG004",
 			"SerialNumber": "ENG-004",
 			"Software": {
-				"MySoftware": {}
+				"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+				"BrowseName":  "NAMESPACEINDEX:Software",
+				"MySoftware": {
+					"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+					"BrowseName":  "NAMESPACEINDEX:MySoftware"
+				}
 			},
 			"TaskControls": {
+				"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+				"BrowseName":  "NAMESPACEINDEX:TaskControls",
 				"TaskControl": {
+					"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+					"BrowseName":  "NAMESPACEINDEX:TaskControl",
 					"ParameterSet": {
+						"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+						"BrowseName":  "NAMESPACEINDEX:ParameterSet",
 						"TaskProgramName": "TaskProg",
 						"TaskProgramLoaded": true,
 						"ExecutionMode": 0
@@ -1593,22 +1627,41 @@ Sample uses simplified representation for data consumers `?options=keyValues`
 		}
 	},
 	"MotionDevices": {
+		"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+		"BrowseName":  "NAMESPACEINDEX:MotionDevices",
 		"MotionDevice": {
+			"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+			"BrowseName":  "NAMESPACEINDEX:MotionDevice",
 			"AdditionalComponents": {
-				"AdditionalComponent1": {}
+				"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+				"BrowseName":  "NAMESPACEINDEX:AdditionalComponents",
+				"AdditionalComponent": {
+					"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+					"BrowseName":  "NAMESPACEINDEX:AdditionalComponent"
+				}
 			},
 			"Axes": {
+				"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+				"BrowseName":  "NAMESPACEINDEX:Axes",
 				"AxisX": {
+					"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+					"BrowseName":  "NAMESPACEINDEX:AxisX",
 					"MotionProfile": 0,
 					"ParameterSet": {
+						"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+						"BrowseName":  "NAMESPACEINDEX:ParameterSet",
 						"ActualPosition": 1.0,
 						"ActualSpeed": 2.5,
 						"ActualAcceleration": 3.0
 					}
 				},
 				"AxisY": {
+					"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+					"BrowseName":  "NAMESPACEINDEX:AxisY",
 					"MotionProfile": 0,
 					"ParameterSet": {
+						"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+						"BrowseName":  "NAMESPACEINDEX:ParameterSet",
 						"ActualPosition": 1.0,
 						"ActualSpeed": 2.5,
 						"ActualAcceleration": 3.0
@@ -1619,9 +1672,17 @@ Sample uses simplified representation for data consumers `?options=keyValues`
 			"Model": "Model",
 			"MotionDeviceCategory": 0,
 			"PowerTrains": {
+				"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+				"BrowseName":  "NAMESPACEINDEX:PowerTrains",
 				"PowerTrain": {
+					"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+					"BrowseName":  "NAMESPACEINDEX:PowerTrain",
 					"Gears": {
-						"Gears": {
+						"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+						"BrowseName":  "NAMESPACEINDEX:Gears",
+						"Gear": {
+							"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+							"BrowseName":  "NAMESPACEINDEX:Gear",
 							"GearRatio": 0.5,
 							"Manufacturer": "Engineering Ingegneria Informatica",
 							"Model": "Model",
@@ -1631,10 +1692,16 @@ Sample uses simplified representation for data consumers `?options=keyValues`
 						}
 					},
 					"Motors": {
+						"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+						"BrowseName":  "NAMESPACEINDEX:Motors",
 						"Motor": {
+							"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+							"BrowseName":  "NAMESPACEINDEX:Motor",
 							"Manufacturer": "Engineering Ingegneria Informatica",
 							"Model": "Model",
 							"ParameterSet": {
+								"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+								"BrowseName":  "NAMESPACEINDEX:ParameterSet",
 								"BrakeReleased": true,
 								"EffectiveLoadRate": 0,
 								"MotorTemperature": 75
@@ -1648,20 +1715,34 @@ Sample uses simplified representation for data consumers `?options=keyValues`
 		}
 	},
 	"SafetyStates": {
+		"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+		"BrowseName":  "NAMESPACEINDEX:SafetyStates",
 		"SafetyState": {
+			"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+			"BrowseName":  "NAMESPACEINDEX:SafetyState",
 			"EmergencyStopFunctions": {
+				"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+				"BrowseName":  "NAMESPACEINDEX:EmergencyStopFunctions",
 				"EmergencyStopFunction": {
+					"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+					"BrowseName":  "NAMESPACEINDEX:EmergencyStopFunction",
 					"Active": true,
 					"Name": "emergencyStop "
 				}
 			},
 			"ParameterSet": {
+				"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+				"BrowseName":  "NAMESPACEINDEX:ParameterSet",
 				"EmergencyStop": true,
 				"OperationalMode": 0,
 				"ProtectiveStop": true
 			},
 			"ProtectiveStopFunctions": {
+				"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+				"BrowseName":  "NAMESPACEINDEX:ProtectiveStopFunctions",
 				"ProtectiveStopFunction": {
+					"NodeId": "ns:NAMESPACEINDEX,i=IDENTIFIER",
+					"BrowseName":  "NAMESPACEINDEX:ProtectiveStopFunction",
 					"Active": true,
 					"Enabled": true,
 					"Name": "protectiveStop "
@@ -2865,6 +2946,16 @@ Sample uses the NGSI-LD representation
 				"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
 			}
 		}
-	}
+	},
+  "metadata": {
+		"BrowseName": {
+			"type": "String",
+			"value": "NAMESPACEINDEX:MotionDeviceSystem"
+		},
+		"NodeId": {
+			"type": "String",
+			"value": "ns:NAMESPACEINDEX,i=IDENTIFIER"
+		}
+  }
 }
 ```
