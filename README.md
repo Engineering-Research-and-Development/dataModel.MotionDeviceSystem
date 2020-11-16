@@ -4,6 +4,22 @@ NGSI-LD representation of the OPC UA Robotics Companion
 ### Specification
 
 Link to the [specification](https://github.com/Engineering-Research-and-Development/dataModel.MotionDeviceSystem/blob/main/doc/spec.md)
+
+### Class Diagrams
+
+##### MotionDeviceSystem
+![uml_1](https://github.com/Engineering-Research-and-Development/dataModel.MotionDeviceSystem/blob/master/images/uml_1.png?raw=true)
+
+##### Controller
+![uml_2](https://github.com/Engineering-Research-and-Development/dataModel.MotionDeviceSystem/blob/master/images/uml_2.png?raw=true)
+
+##### MotionDevice
+![uml_3](https://github.com/Engineering-Research-and-Development/dataModel.MotionDeviceSystem/blob/master/images/uml_3.png?raw=true)
+
+##### SafetyState
+![uml_4](https://github.com/Engineering-Research-and-Development/dataModel.MotionDeviceSystem/blob/master/images/uml_4.png?raw=true)
+
+
 ### Examples
 
 Link to the [example](https://raw.githubusercontent.com/Engineering-Research-and-Development/dataModel.MotionDeviceSystem/main/examples/example.json) (keyvalues) for NGSI v2
